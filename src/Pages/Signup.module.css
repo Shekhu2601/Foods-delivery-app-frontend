@@ -1,0 +1,72 @@
+.container{
+    width: 100%;
+    display: flex;
+    
+   
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.left{
+    width: 60%;
+    
+display: flex;
+align-items: center;
+flex-direction: column;
+    
+}
+.right{
+   
+}
+.imgs{
+    float: right;
+    width: 50vw;
+    height: 98vh;
+background-size:cover;
+}
+.inputs{
+    width: 360px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+   
+}
+.infi{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.wel{
+    margin-left: -20px;
+}
+.wel p{
+  color: #313957;
+  font-size: 18px;
+}
+.Signupbtn{
+    width: 380px;
+    padding: 14px;
+    border-radius: 20px;
+    ;
+    text-align: center;
+    background: #FC8A06;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.subH{
+ color:   #122B31;
+ font-size: 20px;
+ display: flex;
+ justify-content: center;
+}
+.links{
+   
+    text-decoration: none;
+    color: #FC8A06;
+}

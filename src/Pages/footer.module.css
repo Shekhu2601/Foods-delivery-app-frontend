@@ -1,0 +1,100 @@
+.container{
+    width: 100%;
+    margin-top: 10px;
+   
+    background: #D9D9D9;
+
+}
+.main{
+    width: 100%;
+    height: 280px;
+  margin-top: 10px;
+
+  display: flex;
+
+}
+.box1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px;
+    margin: 10px;
+  
+}
+.logo2{
+    width: 170px;
+    margin-top: 30px;
+  
+}
+.ap{
+    width: 250px;
+    margin-top: 20px; 
+    
+}
+.box2{
+    width: 30%;
+    padding: 15px;
+    margin: 10px;
+    margin-left: -25px;
+   
+}
+.inputs{
+    width: 230px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 20px;
+   background-color:  #3a393927;
+
+     border: none;
+}
+.btn{
+    width: 130px;
+    height: 45px;
+    padding: 10px;
+    margin-left: -28px;
+    border-radius: 20px;
+   background-color: #FC8A06;
+   color: #FFFFFF;
+
+     border: none;
+}
+.logoss{
+    width: 40px;
+    margin-left: 10px;
+}
+.box3{
+   width: 20%;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+.links{
+    color: #000000;
+    margin: 7px;
+}
+.box4{
+    
+}
+.subF{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70px;
+    background: #03081F;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+ 
+
+}
+.con{
+    display: flex;
+    gap: 40px;
+    margin-left: 20px;
+    
+}
+.head{
+    margin-left: -60px;
+}
