@@ -30,10 +30,9 @@ export default function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = import.meta.env.VITE_BASE_URL;
-            const response = await fetch(`${url}/login`, {
+            const url = `https://foods-app-backend-v44y.onrender.com/auth/login`;
+            const response = await fetch(url, {
                 method: "POST",
-               
                 headers: {
                     'Content-Type': 'application/json'
                 },
