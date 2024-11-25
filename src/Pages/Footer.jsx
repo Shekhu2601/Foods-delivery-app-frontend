@@ -66,7 +66,8 @@ export default function Footer() {
             <p>Terms</p>
             <p>Pricing </p>
             <p>Policy</p>
-            <p>  Do not sell or share my personal information</p>
+            
+            <p>  Do not sell or share my personal information </p>
         </div>
         </div>
       </div>
