@@ -30,8 +30,8 @@ export default function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `https://foods-app-backend-v44y.onrender.com/auth/login`;
-            const response = await fetch(url, {
+            
+            const response = await fetch(`https://foods-app-backend-v44y.onrender.com/auth/login`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'

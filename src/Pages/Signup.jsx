@@ -32,8 +32,8 @@ export default function Signup() {
             return handleError('name, email,phoneNumber and password are required')
         }
         try {
-            const url = `http://localhost:5000/auth/signup`;
-            const response = await fetch(url, {
+            
+            const response = await fetch(`https://foods-app-backend-v44y.onrender.com/auth/signup`, {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
