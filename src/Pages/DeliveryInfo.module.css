@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    height: 400px;
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+.deli1{
+    display: flex;
+   ;
+}
+.DeliveryInfo{
+   width: 30%;
+}
+.OptrationalTime{
+    background-color: black;
+    color: white;
+width: 23vw;
+padding: 0px 30px 30px 30px;
+border-radius: 0px 10px 10px 0px;
+  
+}
+.imgt{
+    margin-right: 5px;
+}

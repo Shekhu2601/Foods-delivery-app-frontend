@@ -1,0 +1,90 @@
+.container{
+    width: 100%;
+    
+   
+
+}
+.main{
+    background-image: url("./logo/himg3.png");
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+    height: 400px;
+    position: relative;
+    width: 92%;
+    margin: auto;
+}
+.odr{
+display: flex;
+gap: 20px;
+
+
+}
+.odr1{
+    width: 220px;
+    border: 1px solid #FFFFFF;
+    padding: 10px;
+    
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+.odrimg{
+    width: 25px; 
+    margin-right: 10px;
+  
+}
+.img1{
+    width: 100px;
+  position: absolute;
+  right: 37%;
+  top: 222px;
+}
+.img2{
+    width: 450px;
+}
+.clock{
+    width: 200px;
+    background-color:#FC8A06;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   left: 0;
+   bottom: -18px;
+}
+.clockL{
+    width: 25px;
+    margin-right: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+.inputs{
+    width: 200px;
+  text-align: center;
+    height: 40px;
+    border-radius: 20px;
+}
+.manu{
+    display: flex;
+    background-color:#FC8A06;
+    height: 65px;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFFFFF;
+}
+.offer{
+    width: 60px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}

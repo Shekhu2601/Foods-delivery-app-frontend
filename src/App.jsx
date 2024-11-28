@@ -5,6 +5,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import Home from './Pages/Home';
+import McDonalds from './Resturants/McDonalds';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/home'  element={<Home />} />
+        <Route path='/restaurant'  element={<McDonalds/>} />
       </Routes>
     </>
   )

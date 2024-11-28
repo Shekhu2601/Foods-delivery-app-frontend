@@ -1,0 +1,31 @@
+.container{
+    width: 94%;
+    display: flex;
+    margin: 10px;
+    overflow-x: scroll;
+    height: 280px;
+   margin-top: 20px;
+}
+.r1{
+   width: 170px;
+    background-color:#FC8A06 ;
+    border-radius: 10px  ;
+    text-align: center;
+    height: 190px;
+    
+   margin: 15px;
+}
+.mac1{
+    width: 170px;
+}
+.links{
+    text-decoration: none;
+ 
+ color: aliceblue;
+}
+.name{
+   text-align: center;
+   margin-top: 5px;
+ 
+   
+}

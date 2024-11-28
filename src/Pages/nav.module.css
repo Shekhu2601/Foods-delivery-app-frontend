@@ -1,0 +1,115 @@
+.container{
+    width: 100%;
+    height: 170px;
+   
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.loc_simbol{
+    display: flex;
+}
+.mycart{
+    background: #028643;
+
+margin-left: 20px;
+border-radius: 0px 0px 10px 10px;
+height: 70px;
+padding: 0;
+color: #FFFFFF;
+
+
+
+}
+.cart{
+    display: flex;
+    align-items: center;
+    
+}
+.devider{
+    width: 20px;
+    height: 68px;
+    border-right:1px solid #FFFFFF;
+    margin-right: 40px;
+   
+}
+
+.logo{
+    margin-left: 15px;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+.logoar{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+.ar{
+    width: 50px;
+    margin-left: -30px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+.promo{
+    color: #FC8A06;
+    font-weight: 900;
+}
+.locimg{
+    margin-top: 13px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+.box2{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logob{
+    width: 200px;
+}
+.logoimg{
+    width: 180px;
+}
+.links1{
+    background-color: #FC8A06;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+   
+}
+.links{
+    
+    text-decoration: none;
+    margin: 20px;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px !important;
+    background-color: #03081F;
+    width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+   
+    a{
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+}
+.location{
+    color: #FC8A06;
+}
