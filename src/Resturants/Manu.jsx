@@ -8,7 +8,7 @@ export default function Manu() {
     const [foodItem ,setFoodItem]= useState([])
     const loadData = async()=>{
         
-        let response= await fetch("http://localhost:5000/foodsItem" ,{
+        let response= await fetch("https://foods-app-backend-v44y.onrender.com/foodsItem" ,{
             method: "GET",
             headers:{
                 "Content-Type": `application/json`
@@ -17,7 +17,7 @@ export default function Manu() {
         response =await response.json()
         setFoodItem(response)
        //console.log(response)
-       let responseC= await fetch("http://localhost:5000/foodscategory" ,{
+       let responseC= await fetch("https://foods-app-backend-v44y.onrender.com/foodscategory" ,{
         method: "GET",
         headers:{
             "Content-Type": `application/json`
