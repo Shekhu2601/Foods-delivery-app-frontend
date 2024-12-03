@@ -9,6 +9,8 @@ import Maps from "../Pages/Maps";
 import UserReview from "../Pages/UserReview";
 import Resturants from "../Pages/Resturants";
 import Footer from "../Pages/Footer";
+import Manu from "./manu";
+import Card from "./Card";
 export default function McDonalds() {
   return (
     <>
@@ -21,7 +23,11 @@ export default function McDonalds() {
           <img className={styles.dic1} src={dic2} alt="" />
         </div>
 
-        <div className={styles.main}></div>
+        <div className={styles.main}>
+         <Manu/>
+        
+         
+        </div>
         <div className={styles.delivery}>
           <DeliveryInfo />
         </div>

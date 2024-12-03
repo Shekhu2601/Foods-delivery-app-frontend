@@ -1,0 +1,37 @@
+.container{
+   
+    width: 380px;
+    height: 175px;
+    display: flex;
+    background-color: #FDFDFD;
+   border: 1px solid #0000001A;
+   border-radius: 10px;
+   padding: 5px;
+   position: relative;
+}
+.box1{
+    width: 240px ;
+   margin-left: 10px;
+   margin-top: -10px;
+}
+.box2{
+    
+    margin-left: 10px;
+}
+.plus{
+   
+    height: 65px;
+    background-color: #FDFDFD;
+  position: absolute;
+  top: 120px;
+  right: 0px;
+  border-radius: 20px 0px 0px 0px;
+  text-align: center;
+  border: none;
+}
+.Item{
+width: 168px;
+height: 150px;
+border-radius: 10px;
+ 
+}

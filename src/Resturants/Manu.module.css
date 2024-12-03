@@ -1,0 +1,40 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cate{
+   font-weight: bolder;
+   font-size: 28px;
+   margin-top: 20px;
+}
+
+.card{
+    margin: 10px;
+ display: grid;
+ grid-template-columns: auto auto auto;
+    flex-direction: row;
+    
+}
+.con{
+position: relative;
+}
+.search{
+    position: absolute;
+    top:80vh;
+    right: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+}
+.inputs{
+    width: 200px;
+  text-align: center;
+    height: 40px;
+    border-radius: 20px;
+}
