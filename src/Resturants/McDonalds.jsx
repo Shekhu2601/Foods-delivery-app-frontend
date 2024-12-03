@@ -9,7 +9,7 @@ import Maps from "../Pages/Maps";
 import UserReview from "../Pages/UserReview";
 import Resturants from "../Pages/Resturants";
 import Footer from "../Pages/Footer";
-import Manu from "./manu";
+import Manu from "./Manu";
 import Card from "./Card";
 export default function McDonalds() {
   return (
